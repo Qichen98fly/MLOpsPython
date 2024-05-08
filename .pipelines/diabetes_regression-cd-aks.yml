@@ -28,7 +28,7 @@ variables:
 - group: devopsforai-aml-vg
 
 
-
+stages:
 - stage: 'Deploy_AKS'
   displayName: 'Deploy to AKS'
   dependsOn: Deploy_ACI
