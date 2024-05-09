@@ -21,7 +21,7 @@ resources:
     trigger:
       branches:
         include:
-        - master
+        - patch-1
 
 variables:
 - template: diabetes_regression-variables-template.yml
